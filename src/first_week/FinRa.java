@@ -1,3 +1,5 @@
+package first_week;
+
 public class FinRa {
     public static void main(String[] args) {
 

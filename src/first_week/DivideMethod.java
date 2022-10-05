@@ -1,3 +1,5 @@
+package first_week;
+
 import java.util.Scanner;
 
 public class DivideMethod {
