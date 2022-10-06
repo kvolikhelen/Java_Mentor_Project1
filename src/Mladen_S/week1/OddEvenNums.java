@@ -1,4 +1,4 @@
-package Mladen_S;
+package Mladen_S.week1;
 
 import javax.crypto.spec.PSource;
 import java.util.Scanner;

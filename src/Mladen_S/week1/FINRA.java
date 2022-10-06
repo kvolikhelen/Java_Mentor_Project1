@@ -1,4 +1,4 @@
-package Mladen_S;
+package Mladen_S.week1;
 
 public class FINRA {
     /*
