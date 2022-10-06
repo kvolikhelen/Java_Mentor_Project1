@@ -1,4 +1,4 @@
-package cemo;
+package cemo.first_week;
 
 public class Finra {
     /*
