@@ -2,7 +2,7 @@ package Week3;
 /*
 2. Numbers -- Armstrong numbers
 Write a method that can check if a number is
-Armstrong number
+Armstrong number (1 * 1 * 1) + (5 * 5 * 5) + (3 * 3 * 3) = 153
  */
 public class ArmstrongNumbers {
     public static boolean isArmstrongNum(int num){
@@ -19,5 +19,6 @@ public class ArmstrongNumbers {
         System.out.println(isArmstrongNum(54748));
         System.out.println(isArmstrongNum(153));
         System.out.println(isArmstrongNum(20));
+        System.out.println(isArmstrongNum(371));
     }
 }
