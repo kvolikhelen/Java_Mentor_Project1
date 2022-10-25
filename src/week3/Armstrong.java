@@ -13,6 +13,10 @@ Armstrong number*/
             b = b + (a * a * a);
         }
 
-        return (c == b) ? true : false;
+        return c == b;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(armstrongNumber(153));
     }
 }
