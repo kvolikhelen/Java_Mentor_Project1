@@ -14,13 +14,13 @@ Ex:
 Input: "DC501GCCCA098911"
 OutPut: "CD015ACCCG011899"*/
 
-    public static String sortLetterAndNumber(String str){
-        String result ="";
+    public static String sortLetterAndNumber(String str) {
+        String result = "";
         String sort = "";
         int temp = 0;
 
         for (int i = 0; i < str.length(); i++) {
-sort="";
+            sort = "";
             for (int j = temp; j < str.length(); j++) {
                 if (Character.isAlphabetic(str.charAt(j))) {
                     sort += str.charAt(j);
