@@ -18,7 +18,7 @@ if all requirements above are met, the method returns true, otherwise returns fa
             else if (Character.isLowerCase(password.charAt(i))) lower++;
             else if (Character.isDigit(password.charAt(i))) digit++;
             else { special++; }
-            }
+        }
         if (password.length() >= 6 && !password.contains(" ")) {
             if (upper >= 1 && lower >= 1 && digit >= 1 && special >= 1) return true;
         }
@@ -28,6 +28,14 @@ if all requirements above are met, the method returns true, otherwise returns fa
 
     public static void main(String[] args) {
         System.out.println(isValidPassword("Husna%123"));
+        System.out.println(isValidPassword("Husna"));
+        System.out.println(isValidPassword("%123"));
+        System.out.println(isValidPassword("HHIOSIH23"));
+        System.out.println(isValidPassword("hlakhdfa123"));
+        System.out.println(isValidPassword("Husna%123"));
+        System.out.println(isValidPassword("*^(&)_*JHKJSnnk;an"));
+
+
     }
 
 
