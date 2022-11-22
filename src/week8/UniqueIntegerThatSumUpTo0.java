@@ -28,6 +28,10 @@ For N = 3 one of the possible answers is [-1,0,1] (but there are many more corre
 
     public static void main(String[] args) {
         System.out.println(Arrays.toString(sumUpTo0(4)));
+        System.out.println(Arrays.toString(sumUpTo0(5)));
+        System.out.println(Arrays.toString(sumUpTo0(2)));
+        System.out.println(Arrays.toString(sumUpTo0(10)));
+
     }
 
 
